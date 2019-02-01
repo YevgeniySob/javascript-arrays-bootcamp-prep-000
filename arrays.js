@@ -1,4 +1,7 @@
 chocolateBars = ["snickers","hundred grand","kitkat","skittles"]
 
-addElementToBeginningOfArray.unshift("hey")
+function addElementToBeginningOfArray(arr,element){
+  arr.unshift(element)
+  
+}
 
