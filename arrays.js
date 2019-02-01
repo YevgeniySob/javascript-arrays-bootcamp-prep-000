@@ -13,10 +13,10 @@ function destructivelyAddElementToBeginningOfArray(arr,element){
 
 function addElementToEndOfArray(arr, element){
   arr2 = []
-  arr2.add
+  arr2.push(element)
   return arr2
 }
 
 function destructivelyAddElementToEndOfArray(arr,element){
-  
+  return arr.push(element)
 }
