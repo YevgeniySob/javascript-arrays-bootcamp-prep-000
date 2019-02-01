@@ -11,20 +11,20 @@ function destructivelyAddElementToBeginningOfArray(array ,element){
   return arr
 }
 
-function addElementToEndOfArray(arr, element){
+function addElementToEndOfArray(array , element){
   var arr2 = arr
   arr2.push(element)
   return arr2
 }
 
-function destructivelyAddElementToEndOfArray(arr,element){
+function destructivelyAddElementToEndOfArray(array ,element){
   return arr.push(element)
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(arr){
+function destructivelyRemoveElementFromBeginningOfArray(array ){
   return arr.shift()
 }
 
-function removeElementFromBeginningOfArray(arr){
-  return arr.slice(1)
+function removeElementFromBeginningOfArray(array ){
+  return array .slice(1)
 }
