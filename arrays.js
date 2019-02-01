@@ -1,2 +1,2 @@
-chocolateBars = ["snickers","bars2","bars3"]
+chocolateBars = ["snickers","hundred grand","bars3"]
 
