@@ -19,7 +19,7 @@ function destructivelyAddElementToBeginningOfArray(array,element){
 
 function destructivelyRemoveElementFromEndOfArray(array){
   array.pop()
-  return array
+  return 
 }
 
 function destructivelyAddElementToEndOfArray(array ,element){
@@ -31,7 +31,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 }
 
 function removeElementFromBeginningOfArray(array){
-  return array.shift()
+  return array.slice(0)
 }
 
 function removeElementFromEndOfArray(array){
