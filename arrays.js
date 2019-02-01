@@ -7,22 +7,22 @@ function addElementToBeginningOfArray(array ,element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array ,element){
-  arr.unshift(element)
-  return arr
+  array .unshift(element)
+  return array 
 }
 
 function addElementToEndOfArray(array , element){
-  var arr2 = arr
+  var arr2 = array 
   arr2.push(element)
   return arr2
 }
 
 function destructivelyAddElementToEndOfArray(array ,element){
-  return arr.push(element)
+  return array .push(element)
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array ){
-  return arr.shift()
+  return array .shift()
 }
 
 function removeElementFromBeginningOfArray(array ){
